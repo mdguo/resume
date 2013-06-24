@@ -194,8 +194,23 @@ h2 {
 				margin-right: 5%;
 			}
 
+			.contact-info .info-item.phone .phone-icon{
+				margin-top: 3px;
+			}
+
 			.contact-info .info-item {
 				margin-bottom: 5px;
+				height: 35px;
+			}
+
+			.contact-info .info-item .col-1 {
+				width: 20%;
+				margin-right: 5%;
+				text-align: center;
+			}
+
+			.contact-info .info-item .col-2 {
+				width: 65%;
 			}
 
 			.work-experince .col-1 {
