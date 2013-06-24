@@ -23,9 +23,9 @@ body {
 }
 
 #content {
-  margin: 30px auto;
+  margin: 25px auto;
   background: #f5f4f0;
-  width: 90%;
+  width: 95%;
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.7); 
@@ -175,42 +175,70 @@ h2 {
 			}
 
 			.basic-bio .col-1 {
-				width: 25%;
-				margin-right: 5%;
+				width: 31%;
+				margin-right: 4%;
 			}
 
 			.basic-bio .col-2 {
-				width: 65%;
+				width: 60%;
 				margin-right: 5%;
 			}
 
+			.basic-bio .edu-short {
+				margin-bottom: 10px;
+			}
+
+			.basic-bio .edu-short .col-1 {
+				width: 16%;
+				margin-right: 4%;
+			}
+
+			.basic-bio .edu-short .col-2 {
+				width: 80%;
+				margin-right: 0%;
+			}
+
+			.basic-bio .title-short .col-1 {
+				width: 16%;
+				margin-right: 4%;
+			}
+
+			.basic-bio .title-short .col-2 {
+				width: 80%;
+				margin-right: 0%;
+			}
+
 			.contact-info .col-1 {
-				width: 45%;
+				width: 47.5%;
 				margin-right: 5%;
 			}
 
 			.contact-info .col-2 {
-				width: 45%;
-				margin-right: 5%;
+				width: 47.5%;
+				margin-right: 0%;
 			}
 
-			.contact-info .info-item.phone .phone-icon{
-				margin-top: 3px;
+			.contact-info .col-1 .info-item {
+				margin-bottom: 10px;
 			}
 
-			.contact-info .info-item {
-				margin-bottom: 5px;
-				height: 35px;
-			}
-
-			.contact-info .info-item .col-1 {
+			.contact-info .col-1 .info-item .col-1 {
 				width: 20%;
 				margin-right: 5%;
-				text-align: center;
 			}
 
-			.contact-info .info-item .col-2 {
-				width: 65%;
+			.contact-info .col-1 .info-item .col-2 {
+				width: 75%;
+				line-height: 35px;
+			}
+
+			.contact-info .col-2 .info-item .col-1 {
+				width: 20%;
+				margin-right: 5%;
+			}
+
+			.contact-info .col-2 .info-item .col-2 {
+				width: 75%;
 			}
 
 			.work-experince .col-1 {
@@ -231,4 +259,4 @@ h2 {
 			.education .col-2 {
 				width: 30%;
 				margin-right: 5%;
-			}*/
+			}
