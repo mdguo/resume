@@ -241,12 +241,25 @@ h2 {
 				width: 75%;
 			}
 
-			.work-experince .col-1 {
+      .skill-summary ul li {
+        list-style-image: url("../images/check_mark.png");
+        margin-left: 24px;
+      }
+
+      .work-experience-item {
+        margin-bottom: 20px;
+      }
+
+      .work-experience p.work-info {
+        color: #999;
+      }
+
+			.work-experience .col-1 {
 				width: 25%;
 				margin-right: 5%;
 			}
 
-			.work-experince .col-2 {
+			.work-experience .col-2 {
 				width: 65%;
 				margin-right: 5%;
 			}
