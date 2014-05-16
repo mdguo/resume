@@ -30,12 +30,16 @@ body {
   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.7); 
 }
-  #content section {
+  section {
     width: 100%;
     min-height: 100px;
     position: relative;
     padding: 30px;
     padding-bottom: 0px;
+  }
+
+  section.work-experience {
+    padding-top: 37px;
   }
 
 h1 {
@@ -61,6 +65,13 @@ h4 {
   font-weight: bold;
   font-size: 14px;
   line-height: 20px;
+}
+
+h5 {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 li, p {
@@ -171,6 +182,8 @@ li, p {
 
       .work-experience p.work-info {
         color: #999;
+        font-size: 14px;
+        line-height: 18px;
       }
 
       .work-experience ul {
@@ -180,6 +193,7 @@ li, p {
       .work-experience li {
         margin-left: 18px;
         list-style: disc;
+        margin-bottom: 3px;
       }
 
 			.work-experience .col-1 {
@@ -205,4 +219,8 @@ li, p {
 
       .education .edu-content {
         margin-left: 21px;
+      }
+
+      .edu-content .content-1 {
+        margin-bottom: 10px;
       }
