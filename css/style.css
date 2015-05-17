@@ -55,30 +55,38 @@ h2 {
 }
 
 h3 {
-  font-family: 'Open Sans';
-  font-weight: bold;
-  font-size: 16px;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 4px;
 }
 
 h4 {
-  font-family: 'Open Sans';
-  font-weight: bold;
-  font-size: 14px;
+  font-family: Arial;
+  font-size: 16px;
+  color: #66696a;
   line-height: 20px;
+  margin-bottom: 4px;
 }
 
 h5 {
-  font-family: 'Open Sans';
-  font-weight: bold;
+  font-family: Arial;
   font-size: 12px;
   line-height: 16px;
 }
 
 li, p {
-  font-family: 'Open Sans';
+  font-family: Arial;
   font-size: 16px;
   line-height: 22px;
 }
+
+.work-experience li {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 19px;
+}
+
 
 
 
@@ -178,12 +186,15 @@ li, p {
 
       .work-experience-item {
         margin-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
       }
 
       .work-experience p.work-info {
-        color: #999;
+        color: #66696a;
         font-size: 14px;
         line-height: 18px;
+        margin-bottom: 4px;
       }
 
       .work-experience ul {
@@ -195,15 +206,6 @@ li, p {
         list-style: disc;
         margin-bottom: 3px;
       }
-
-			.work-experience .col-1 {
-				width: 22%;
-				margin-right: 4%;
-			}
-
-			.work-experience .col-2 {
-				width: 74%;
-			}
 
 			.education strong {
 				font-weight: bold;
@@ -223,4 +225,11 @@ li, p {
 
       .edu-content .content-1 {
         margin-bottom: 10px;
+      }
+
+      .edu-info {
+        color: #66696a;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 4px;
       }
