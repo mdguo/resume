@@ -124,6 +124,10 @@ li, p {
 				padding-bottom: 10px;
 			}
 
+      .skill-summary ul {
+        list-style: disc;
+      }
+
       .skill-summary li {
         margin-bottom: 7px;
       }
@@ -132,44 +136,19 @@ li, p {
 				float: left;
 			}
 
-			.basic-bio .col-1 {
-				width: 40%;
-				margin-right: 10%;
+			.info-short .col-1 {
+				width: 30%;
+				margin-right: 12%;
 			}
 
-			.basic-bio .col-2 {
-				width: 40%;
-				margin-right: 5%;
+			.info-short .col-2 {
+				width: 20%;
+				margin-right: 13%;
 			}
 
-			.basic-bio .edu-short {
-				margin-bottom: 10px;
-			}
-
-			.basic-bio .edu-short .col-1 {
-				width: 16%;
-				margin-right: 4%;
-			}
-
-      .basic-bio .edu-short .col-1 img {
-        position: relative;
-        top: 7px;
+      .info-short .col-3 {
+        width: 25%;
       }
-
-			.basic-bio .edu-short .col-2 {
-				width: 80%;
-				margin-right: 0%;
-			}
-
-			.basic-bio .title-short .col-1 {
-				width: 16%;
-				margin-right: 4%;
-			}
-
-			.basic-bio .title-short .col-2 {
-				width: 80%;
-				margin-right: 0%;
-			}
 
 			.contact-info .icon {
         margin-right: 5%;
@@ -180,7 +159,6 @@ li, p {
       }
 
       .skill-summary ul li {
-        list-style-image: url("../images/check_mark.png");
         margin-left: 24px;
       }
 
@@ -232,4 +210,18 @@ li, p {
         font-size: 14px;
         line-height: 18px;
         margin-bottom: 4px;
+      }
+
+      .edu-research p {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+
+      .edu-research h4 {
+        text-decoration: underline;
+      }
+
+      .education .proj-header {
+        margin-bottom: 5px;
+        padding-bottom: 5px;
       }
